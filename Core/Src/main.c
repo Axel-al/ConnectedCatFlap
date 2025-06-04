@@ -21,7 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "controleur.h"
+#include "lcd_ui.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -101,7 +102,8 @@ int main(void)
   MX_SPI1_Init();
   MX_RTC_Init();
   /* USER CODE BEGIN 2 */
-
+  LCD_UI_Init(&hi2c1);
+  Controleur_Init();
   /* USER CODE END 2 */
 
   /* Initialize leds */
@@ -123,6 +125,8 @@ int main(void)
   while (1)
   {
 
+    LCD_UI_Poll();
+    Controleur_Tick();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
