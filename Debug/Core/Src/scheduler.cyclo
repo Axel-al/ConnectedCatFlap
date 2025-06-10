@@ -1,0 +1,8 @@
+../Core/Src/scheduler.c:8:6:scheduler_init	2
+../Core/Src/scheduler.c:15:6:is_time_allowed	1
+../Core/Src/scheduler.c:19:6:is_time_forbidden	11
+../Core/Src/scheduler.c:42:10:get_time_slot	2
+../Core/Src/scheduler.c:49:6:set_time_slot	2
+../Core/Src/scheduler.c:54:6:get_rtc_time	1
+../Core/Src/scheduler.c:60:6:set_rtc_time	2
+../Core/Src/scheduler.c:74:6:print_all_slots	1

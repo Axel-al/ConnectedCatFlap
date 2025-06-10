@@ -1,0 +1,6 @@
+../Core/Src/rfid_logic.c:9:6:rfid_logic_init	4	static
+../Core/Src/rfid_logic.c:13:6:is_authorized	24	static
+../Core/Src/rfid_logic.c:22:6:add_badge	16	static
+../Core/Src/rfid_logic.c:31:6:remove_badge	24	static
+../Core/Src/rfid_logic.c:45:6:clear_badge_list	4	static
+../Core/Src/rfid_logic.c:49:6:print_all_badges	4	static

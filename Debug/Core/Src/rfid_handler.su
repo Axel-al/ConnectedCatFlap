@@ -1,0 +1,6 @@
+../Core/Src/rfid_handler.c:11:13:rfid_read_uid	24	static
+../Core/Src/rfid_handler.c:25:18:detect_direction	16	static
+../Core/Src/rfid_handler.c:36:13:process_uid	40	static
+../Core/Src/rfid_handler.c:47:6:rfid_handler_poll	16	static
+../Core/Src/rfid_handler.c:54:6:rfid_handler_add_badge	32	static
+../Core/Src/rfid_handler.c:78:6:rfid_handler_remove_badge	32	static

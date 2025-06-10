@@ -1,0 +1,3 @@
+../Core/Src/log_history.c:9:6:log_passage	2
+../Core/Src/log_history.c:19:11:last_log_dir	2
+../Core/Src/log_history.c:27:6:print_log_history	3
